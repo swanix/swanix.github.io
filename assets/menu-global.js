@@ -26,12 +26,12 @@ const menuGlobalItems = [
   { 
     name: 'Palettes', 
     icon: "❖", 
-    link: "/stock/"
+    link: "/palettes/"
   },
   { 
     name: 'Mockups', 
     icon: "⭆", 
-    link: "/motion/"
+    link: "/mockups/"
   }
 ];
 
