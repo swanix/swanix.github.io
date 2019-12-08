@@ -115,6 +115,7 @@ const menuGlobalStyles = `
       color: var(--menu-global-item-text);
       text-decoration: none;
       transition: 0.3s;
+      font-weight: 400;
     }
   
     #menu-global .menu-global-item:hover {

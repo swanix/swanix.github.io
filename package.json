@@ -1,0 +1,26 @@
+{
+  "name": "swanix",
+  "version": "0.1.0",
+  "description": "Experimental brand template",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server './' --files ./**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swanix/swanix.github.io.git"
+  },
+  "author": "Sebastian Serna <jsebastianserna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swanix/brand/issues"
+  },
+  "homepage": "https://github.com/swanix/brand#readme",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 2.14.2"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7"
+  }
+}

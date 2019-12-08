@@ -1,138 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <!-- Global -->
-    <title>Swanix - Open Design Lab</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="Experimental UI Framework">
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="https://swanix.org/ui/assets/images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://swanix.org/ui/assets/images/apple-touch-icon.png" />
-    <!-- Styles and fonts -->
-    <link href="https://cdn.jsdelivr.net/gh/swanix/ui@0.3.6/dist/swanix-black.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="https://cdn.jsdelivr.net/gh/swanix/ui@0.3.6/dist/swanix.min.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- IE support -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Swanix</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/docsify-custom.css">
 </head>
 <body>
-<div class="layout">
-  <!-- Header :::::::::::::::::::::: -->
-  <header class="layout-header fixed-top shadow-bottom">
-    <div class="navbar" data-scroll-header>
-    <!-- Logo -->
-    <div class="logo">
-      <a href="/">
-      <svg class="main-logo" viewBox="0 0 92 92" width="50" height="50">
-        <use xlink:href="https://swanix.org/ui/assets/images/logo.svg#logo"></use>
-        <use xlink:href="https://swanix.org/ui/assets/images/logo.svg#logo-text"></use>
-      </svg>
-      </a>
-      <label class="label-switch">
-        <input id="swap-theme" type="checkbox" />
-        <div class="checkbox"></div>
-      </label>
-    </div>
-    <!-- Menu -->
-    <nav class="menu">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <!-- Menu button -->
-    <div class="menu-mobile-open">
-      <button class="btnMenu" type="button">
-         <svg class="icon"><use xlink:href="https://swanix.org/ui/assets/assets/images/icons.svg#menu"></use></svg>
-      </button>
-    </div>
-    <!-- Fade Screen -->
-    <div class="menu-modal-bg"></div>
-</div>
-  </header>
-  <!-- Content Area :::::::::::::::::::::: -->
-  <main class="layout-main" role="main">
-    <!-- Header :::::::::::::::::::::: -->
-    <header class="hero lazyload"
-      data-bg="https://swanix.org/ui/assets/images/image-large.jpg">
-        <div class="hero-content overlay-bg">
-          <div class="align-vertical">
-            <svg class="main-logo" viewBox="0 0 100 100" width="150" height="150">
-              <use xlink:href="https://swanix.org/ui/assets/images/logo.svg#logo"></use>
-            </svg>
-            <h2>Swanix</h2>
-          </div>
-        </div>
-    </header>
-    <!-- Content :::::::::::::::::::::: -->
-    <section class="row-content pad">
-        
-<h2>Projects</h2>
-<section class="cardview">
-    <article class="cardview-item">
-      <a href="https://swanix.org/ui">
-        <img class="cardview-item-figure" src="https://swanix.org/ui/assets/images/thumb.png" alt="">
-        <div class="cardview-item-body">
-          <h3>UI</h3>
-          <p> User interface framework based on experimental CSS features</p>
-        </div>
-      </a>
-    </article>
-    <article class="cardview-item">
-      <a href="https://swanix.org/palettes">
-        <img class="cardview-item-figure" src="https://swanix.org/ui/assets/images/thumb.png" alt="">
-        <div class="cardview-item-body">
-          <h3>Palettes</h3>
-          <p>Curated color palettes ready to be used with Swanix UI</p>
-        </div>
-      </a>
-    </article>
-    <article class="cardview-item">
-      <a href="https://swanix.org/mockups">
-        <img class="cardview-item-figure" src="https://swanix.org/ui/assets/images/thumb.png" alt="">
-        <div class="cardview-item-body">
-          <h3>Mockups</h3>
-          <p>Realistic product mockups and brand simulator created with Figma</p>
-        </div>
-      </a>
-    </article>
-</section>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: "Swanix",
+      themeColor: '#000',
+      basePath: 'content/',
+      homepage: 'home.md',
+      loadSidebar: '_menu.md',
+      subMaxLevel: 1,
+      auto2top: true,
+      coverpage: false,
+      notFoundPage: true,
+      relativePath: true,
+      pagination: {
+          previousText: 'Anterior',
+          nextText: 'Siguiente',
+          crossChapter: true
+      }
+    };
+  </script>
 
-    </section>
-  </main>
-  <!-- Footer :::::::::::::::::::::: -->
-  <footer class="layout-footer">
-    <div class="centered">
-  <!-- Start Social buttons -->
-  <div class="social-links">
-    <a class="button circle" href="#">
-      <svg class="icon medium"><use xlink:href="https://swanix.org/ui/assets/images/icons.svg#social-facebook"></use></svg>
-    </a>
-    <a class="button circle" href="#">
-      <svg class="icon medium"><use xlink:href="https://swanix.org/ui/assets/images/icons.svg#social-twitter"></use></svg>
-    </a>
-    <a class="button circle" href="#">
-      <svg class="icon medium"><use xlink:href="https://swanix.org/ui/assets/images/icons.svg#social-youtube"></use></svg>
-    </a>
-    <a class="button circle" href="#">
-      <svg class="icon medium"><use xlink:href="https://swanix.org/ui/assets/images/icons.svg#social-dribbble"></use></svg>
-    </a>
-  </div>
-  <!-- End Social buttons -->
-  <p class="pad">Swanix © 2015-2018</P>
-</div>
-  </footer>
-</div>
-
-<!-- Scripts -->
-<script src="https://swanix.org/ui/assets/scripts/swanix.min.js"></script>
-<script src="https://swanix.org/ui/assets/scripts/other/theme-switch.js"></script>
-<!-- Custom menu -->
-<script src="assets/menu-global.js"></script>
-
+  <!-- Docsify -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify plugins -->
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Vuejs -->
+  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
+  <!-- Custom menu -->
+  <script src="https://swanix.org/assets/menu-global.js"></script>
+  <script>
+    createMenuGlobal();
+  </script>
 </body>
 </html>
