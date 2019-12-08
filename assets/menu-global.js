@@ -24,12 +24,12 @@ const menuGlobalItems = [
     link: "/ui/"
   },
   { 
-    name: 'Stock', 
+    name: 'Palettes', 
     icon: "❖", 
     link: "/stock/"
   },
   { 
-    name: 'Motion', 
+    name: 'Mockups', 
     icon: "⭆", 
     link: "/motion/"
   }
@@ -82,6 +82,10 @@ const menuGlobalStyles = `
     padding: 0;
     margin: 0;
   }
+
+  body {
+    overscroll-behavior: none;
+  } 
 
   .menu-global {
     position: fixed;
