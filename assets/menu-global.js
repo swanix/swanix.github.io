@@ -64,9 +64,6 @@ const menuGlobalStyles = `
 
   /* Navigation menu */
 
-
-  /* Navigation menu */
-
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
   
     :root {
@@ -95,7 +92,7 @@ const menuGlobalStyles = `
       background: var(--body-bg);
     } 
   
-    .menu-global {
+    #menu-global {
       position: fixed;
       left: 0;
       top: 0;
@@ -106,7 +103,7 @@ const menuGlobalStyles = `
       background: var(--menu-global-bg);
     }
   
-    .menu-global-item {
+    #menu-global .menu-global-item {
       width: var(--menu-global-width);
       height: var(--menu-global-item-height);
       font-size: var(--menu-global-font-size);
@@ -120,37 +117,39 @@ const menuGlobalStyles = `
       transition: 0.3s;
     }
   
-    .menu-global-item:hover {
+    #menu-global .menu-global-item:hover {
       color: var(--menu-global-item-text-hover);
       background: var(--menu-global-item-bg-hover);
     }
   
-    .menu-global-item.active {
+    #menu-global .menu-global-item.active {
       color: var(--menu-global-item-text-active);
       background: var(--menu-global-item-bg-active);
     }
   
-    .menu-global-item-icon {
+    #menu-global .menu-global-item-icon {
       font-size: var(--menu-global-item-icon-size);
       font-family: var(--menu-global-font);
+      color: var(--menu-global-item-text);
     }
   
-    .menu-global-item-text {
+    #menu-global .menu-global-item-text {
       margin-top: 5px;
     }
   
-    .menu-global-sections {
+    #menu-global .menu-global-sections {
       list-style: none;
       padding: 0;
       margin: 0;
     }
   
+ 
 </style>
 `;
 
 function createMenuGlobal() {
   let menuGlobal = document.createElement('div');
-  menuGlobal.className = "menu-global";
+  menuGlobal.id = "menu-global";
   menuGlobal.innerHTML = menuGlobalTemplate + menuGlobalStyles;
 
   document.body.insertAdjacentElement("afterbegin", menuGlobal);
