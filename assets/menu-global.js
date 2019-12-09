@@ -31,16 +31,14 @@ const menuGlobalItems = [
 ];
 
 const menuGlobalTemplate = `
-  <ul class="menu-global-sections">
+  <div class="menu-global-sections">
       ${menuGlobalItems.map(item => `
-        <li>
-          <a class="menu-global-item" href="${item.link}">
-            <span class="menu-global-item-icon">${item.icon}</span>
-            <span class="menu-global-item-text">${item.name}</span>
-          </a>
-        </li>
+        <a class="menu-global-item" href="${item.link}">
+          <span class="menu-global-item-icon">${item.icon}</span>
+          <span class="menu-global-item-text">${item.name}</span>
+        </a>
       `).join('')}
-  </ul>
+  </div>
 `;
 
 const menuGlobalStyles = `
