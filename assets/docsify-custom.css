@@ -3,7 +3,16 @@
 /* Prevent scroll bounce - Webkit (Mac OS) */
 body {
     overscroll-behavior: none; /* Partial support - No Safari */
-  } 
+} 
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 68px;
+  height: 100vh;
+  background: royalblue;
+}
   
   /* Vue Theme - Source https://unpkg.com/docsify@4.9.4/themes/vue.css */
   
