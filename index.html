@@ -20,18 +20,13 @@
       name: "Swanix",
       themeColor: '#000',
       basePath: 'content/',
-      homepage: 'home.md',
-      loadSidebar: '_menu.md',
+      coverpage: 'cover.md',
+      onlyCover: true,
+      loadSidebar: false,
       subMaxLevel: 1,
       auto2top: true,
-      coverpage: 'cover.md',
       notFoundPage: true,
-      relativePath: true,
-      pagination: {
-          previousText: 'Anterior',
-          nextText: 'Siguiente',
-          crossChapter: true
-      }
+      relativePath: true
     };
   </script>
 
@@ -39,7 +34,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- Docsify plugins -->
   <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- Vuejs -->
   <script src="//unpkg.com/vue/dist/vue.min.js"></script>
   <!-- Custom menu -->
