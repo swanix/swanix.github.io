@@ -7,7 +7,7 @@ let topbarLogoPath = siteUrl + "assets/logo-topbar.svg";
 
 const menuGlobalItems = [
   { 
-    name: 'Intro', 
+    name: 'Home', 
     icon: "⌂", 
     link: "/"
   },
@@ -33,7 +33,7 @@ const menuGlobalItems = [
   }
 ];
 
-const menuGlobalTemplate = `
+const menuGlobalTemplate = /*html*/ `
   <div class="menu-global-sections">
       ${menuGlobalItems.map(item => `
         <a class="menu-global-item" href="${item.link}">
@@ -43,140 +43,10 @@ const menuGlobalTemplate = `
       `).join('')}
   </div>
   <div class="topbar-global">
-    <a href="${siteUrl}"><img src="${topbarLogoPath}"/></a>
+    <a class="topbar-global-logo" href="${siteUrl}"><img src="${topbarLogoPath}"/></a>
   </div>
 `;
 
-const menuGlobalStyles = `
-<style>
-  /* Docsify */
-
-  .sidebar {
-    left: 68px;
-    transform: translateX(0px);
-  }
-
-  main > .content {
-    margin-left: calc(var(--sidebar-width) + 74px);
-  }
-
-  .sidebar-toggle .sidebar-toggle-button {
-    left: 68px;
-    display: none;
-  }
-
-  .sidebar > h1 {
-    margin: 0 auto 0;
-    font-size: 1rem;
-    visibility: hidden;
-  }
-
-  /* Topbar Global */
-
-  .topbar-global {
-    height: 48px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 8888;
-    display: flex;
-    align-items: center;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
-    padding-left: 12px;
-    color: var(--topbar-global-text); 
-    background: var(--topbar-global-bg);
-  }
-
-  /* Navigation menu */
-
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-  
-    :root {
-      --primary: #000000;
-      --body-bg: #F7F7F7;
-
-      /* Menu Global */
-
-      --menu-global-bg: #262626;
-      --menu-global-width: 68px;
-      --menu-global-item-height: 72px;
-      --menu-global-font-size: 12px;
-      --menu-global-font: 'Roboto', sans-serif;
-      
-      --menu-global-item-text: rgba(255,255,255,0.6);
-      --menu-global-item-text-hover: rgba(255,255,255,0.9);
-      --menu-global-item-bg-hover: rgba(255,255,255,0.1);
-  
-      --menu-global-item-text-active: rgba(255,255,255,1);
-      --menu-global-item-bg-active: royalblue;
-  
-      --menu-global-item-icon-size: 24px;
-
-      /* Topbar */
-      --topbar-global-text: white;
-      --topbar-global-bg: black;
-    }
-  
-    body {
-      overscroll-behavior: none;
-      background: var(--body-bg);
-    } 
-  
-    #menu-global {
-      position: fixed;
-      left: 0;
-      top: 48px;
-      width: var(--menu-global-width);
-      height: 100vh;
-      overflow: auto;
-      z-index: 9999;
-      background: var(--menu-global-bg);
-    }
-  
-    #menu-global .menu-global-item {
-      width: var(--menu-global-width);
-      height: var(--menu-global-item-height);
-      font-size: var(--menu-global-font-size);
-      font-family: var(--menu-global-font);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: var(--menu-global-item-text);
-      text-decoration: none;
-      transition: 0.3s;
-      font-weight: 400;
-    }
-  
-    #menu-global .menu-global-item:hover {
-      color: var(--menu-global-item-text-hover);
-      background: var(--menu-global-item-bg-hover);
-    }
-  
-    #menu-global .menu-global-item.active {
-      color: var(--menu-global-item-text-active);
-      background: var(--menu-global-item-bg-active);
-    }
-  
-    #menu-global .menu-global-item-icon {
-      font-size: var(--menu-global-item-icon-size);
-      font-family: var(--menu-global-font);
-      color: var(--menu-global-item-text);
-    }
-  
-    #menu-global .menu-global-item-text {
-      margin-top: 5px;
-    }
-  
-    #menu-global .menu-global-sections {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-  
- 
-</style>
-`;
 
 function createMenuGlobal() {
   let menuGlobal = document.createElement('div');
@@ -206,3 +76,151 @@ function validateEnvironment() {
 };
 
 document.addEventListener("DOMContentLoaded", validateEnvironment);
+
+
+const menuGlobalStyles = /*html*/ `
+<style>
+
+:root {
+  --primary: #000000;
+  --body-bg: #F7F7F7;
+
+  /* Menu Global */
+
+  --menu-global-bg: #262626;
+  --menu-global-width: 68px;
+  --menu-global-item-height: 72px;
+  --menu-global-font-size: 12px;
+  --menu-global-font: 'Roboto', sans-serif;
+  --menu-global-item-icon-size: 24px;
+  --menu-global-item-text: rgba(255,255,255,0.6);
+  --menu-global-item-radius: 8px; 
+  /* Hover */
+  --menu-global-item-text-hover: rgba(255,255,255,0.9);
+  --menu-global-item-bg-hover: rgba(255,255,255,0.1);
+  /* Active */
+  --menu-global-item-text-active: rgba(0,0,0,1);
+  --menu-global-item-icon-active: rgba(0,0,0,1);
+  --menu-global-item-bg-active: rgba(255,255,255,1);
+
+
+  /* Topbar */
+
+  --topbar-global-text: white;
+  --topbar-global-bg: black;
+}
+
+/* Docsify */
+
+.sidebar {
+  left: 68px;
+  transform: translateX(0px);
+}
+
+main > .content {
+  margin-left: calc(var(--sidebar-width) + 74px);
+}
+
+.sidebar-toggle .sidebar-toggle-button {
+  left: 68px;
+  display: none;
+}
+
+.sidebar > h1 {
+  margin: 0 auto 0;
+  font-size: 1rem;
+  visibility: hidden;
+}
+
+/* Topbar Global */
+
+.topbar-global {
+  height: 48px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 8888;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 12px;
+  color: var(--topbar-global-text); 
+  background: var(--topbar-global-bg);
+}
+
+.topbar-global-logo {
+  line-height: 0;
+}
+
+
+/* Navigation menu */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  overscroll-behavior: none;
+  background: var(--body-bg);
+} 
+
+#menu-global {
+  position: fixed;
+  left: 0;
+  top: 48px;
+  width: var(--menu-global-width);
+  height: 100vh;
+  overflow: auto;
+  z-index: 9999;
+  background: var(--menu-global-bg);
+}
+
+#menu-global .menu-global-item {
+  width: var(--menu-global-width);
+  height: var(--menu-global-item-height);
+  font-size: var(--menu-global-font-size);
+  font-family: var(--menu-global-font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--menu-global-item-text);
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 400;
+}
+
+#menu-global .menu-global-item:hover {
+  color: var(--menu-global-item-text-hover);
+  background: var(--menu-global-item-bg-hover);
+  border-top-left-radius: var(--menu-global-item-radius);
+  border-bottom-left-radius: var(--menu-global-item-radius);
+}
+
+#menu-global .menu-global-item.active {
+  color: var(--menu-global-item-text-active);
+  background: var(--menu-global-item-bg-active);
+  border-top-left-radius: var(--menu-global-item-radius);
+  border-bottom-left-radius: var(--menu-global-item-radius);
+}
+
+#menu-global .menu-global-item-icon {
+  font-size: var(--menu-global-item-icon-size);
+  font-family: var(--menu-global-font);
+  color: var(--menu-global-item-text);
+}
+
+#menu-global .active .menu-global-item-icon {
+  color: var(--menu-global-item-icon-active);
+}
+
+#menu-global .menu-global-item-text {
+  margin-top: 5px;
+}
+
+#menu-global .menu-global-sections {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+</style>
+`;
