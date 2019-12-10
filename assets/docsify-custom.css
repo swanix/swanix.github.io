@@ -13,6 +13,10 @@ body {
   height: 100vh;
   background: #262626;
 }
+
+.cover {
+  background: none !important;
+}
   
   /* Vue Theme - Source https://unpkg.com/docsify@4.9.4/themes/vue.css */
   
