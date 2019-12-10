@@ -39,11 +39,13 @@ const menuGlobalTemplate = `
         </a>
       `).join('')}
   </div>
+  <div class="topbar-global">
+    <img src="assets/logo-topbar.svg"/>
+  </div>
 `;
 
 const menuGlobalStyles = `
 <style>
-
   /* Docsify */
 
   .sidebar {
@@ -60,6 +62,22 @@ const menuGlobalStyles = `
     display: none;
   }
 
+  /* Topbar Global */
+
+  .topbar-global {
+    height: 48px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 8888;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 12px;
+    color: var(--topbar-global-text); 
+    background: var(--topbar-global-bg);
+  }
+
   /* Navigation menu */
 
   @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
@@ -67,10 +85,12 @@ const menuGlobalStyles = `
     :root {
       --primary: #000000;
       --body-bg: #F7F7F7;
-      
+
+      /* Menu Global */
+
       --menu-global-bg: #262626;
       --menu-global-width: 68px;
-      --menu-global-item-height: 78px;
+      --menu-global-item-height: 72px;
       --menu-global-font-size: 12px;
       --menu-global-font: 'Roboto', sans-serif;
       
@@ -82,7 +102,10 @@ const menuGlobalStyles = `
       --menu-global-item-bg-active: royalblue;
   
       --menu-global-item-icon-size: 24px;
-  
+
+      /* Topbar */
+      --topbar-global-text: white;
+      --topbar-global-bg: black;
     }
   
     body {
@@ -93,7 +116,7 @@ const menuGlobalStyles = `
     #menu-global {
       position: fixed;
       left: 0;
-      top: 0;
+      top: 48px;
       width: var(--menu-global-width);
       height: 100vh;
       overflow: auto;
