@@ -64,6 +64,12 @@ const menuGlobalStyles = `
     display: none;
   }
 
+  .sidebar > h1 {
+    margin: 0 auto 0;
+    font-size: 1rem;
+    visibility: hidden;
+  }
+
   /* Topbar Global */
 
   .topbar-global {
