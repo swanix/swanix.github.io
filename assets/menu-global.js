@@ -2,6 +2,8 @@
 
 "use strict";
 
+let topbarLogoPath = "https://swanix.org/assets/logo-topbar.svg";
+
 const menuGlobalItems = [
   { 
     name: 'Intro', 
@@ -40,7 +42,7 @@ const menuGlobalTemplate = `
       `).join('')}
   </div>
   <div class="topbar-global">
-    <img src="assets/logo-topbar.svg"/>
+    <img src="${topbarLogoPath}"/>
   </div>
 `;
 
