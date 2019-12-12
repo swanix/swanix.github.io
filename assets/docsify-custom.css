@@ -463,6 +463,7 @@ body {
     .sidebar-toggle,
     .sidebar {
       position: fixed;
+      display: none;
     }
     .app-nav {
       margin-top: 16px;
@@ -603,7 +604,7 @@ body {
   }
   section.cover h1 {
     color: inherit;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 300;
     margin: 0.625rem 0 2.5rem;
     position: relative;
