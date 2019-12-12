@@ -8,7 +8,7 @@ let topbarLogoPath = siteUrl + "assets/logo-topbar.svg";
 const menuGlobalItems = [
   { 
     name: '', 
-    icon: "<img src='assets/logo-icon.svg'/>", 
+    icon: "<img src='https://swanix.org/assets/logo-icon.svg'/>", 
     link: "/"
   },
   { 
@@ -41,11 +41,6 @@ const menuGlobalTemplate = /*html*/ `
           ${item.name ? `<span class="menu-global-item-text">${item.name}</span>`:` `}
         </a>
       `).join('')}
-  </div>
-  <div class="topbar-global" style="display:none;">
-    <div style="background: var(--topbar-bg);height: 100%; width: 220px; display: flex;align-items: center;padding-left: 20px;">
-      <a class="topbar-global-logo" href="${siteUrl}"><img src="${topbarLogoPath}"/></a>
-    </div>
   </div>
 `;
 
@@ -103,11 +98,6 @@ const menuGlobalStyles = /*html*/ `
   --menu-global-item-text-active: rgba(255,255,255,1);
   --menu-global-item-icon-active: rgba(255,255,255,1);
   --menu-global-item-bg-active: var(--sidebar-bg, black);
-
-  /* Topbar */
-  --topbar-global-text: white;
-  --topbar-global-bg: white;
-  --topbar-global-height: 48px;
 }
 
 /* Docsify */
@@ -125,27 +115,6 @@ main > .content {
   left: 68px;
   display: none;
 }
-
-/* Topbar Global */
-
-.topbar-global {
-  height: var(--topbar-global-height, 62px);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 68px;
-  z-index: 8888;
-  display: flex;
-  align-items: center;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
-  color: var(--topbar-global-text); 
-  background: var(--topbar-global-bg);
-}
-
-.topbar-global-logo {
-  line-height: 0;
-}
-
 
 /* Navigation menu */
 
