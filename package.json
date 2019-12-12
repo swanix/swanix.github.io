@@ -4,7 +4,7 @@
   "description": "Experimental brand template",
   "main": "index.js",
   "scripts": {
-    "server": "browser-sync start --server './' --files ./**/*"
+    "serve": "browser-sync start --server './' --files ./**/*"
   },
   "repository": {
     "type": "git",
@@ -13,9 +13,9 @@
   "author": "Sebastian Serna <jsebastianserna@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swanix/brand/issues"
+    "url": "https://github.com/swanix/swanix.github.io/issues"
   },
-  "homepage": "https://github.com/swanix/brand#readme",
+  "homepage": "https://github.com/swanix/swanix.github.io#readme",
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 2.14.2"

@@ -11,6 +11,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon.png" />
   <!-- Styles -->
   <link rel="stylesheet" href="assets/docsify-custom.css">
+
 </head>
 <body>
   <div class="menu-container"></div>
@@ -22,7 +23,8 @@
       basePath: 'content/',
       coverpage: 'cover.html',
       onlyCover: true,
-      loadSidebar: false,
+      loadSidebar: '_menu.md',
+      homepage: 'home.md',
       subMaxLevel: 1,
       auto2top: true,
       notFoundPage: true,
@@ -39,7 +41,7 @@
   <!-- Custom menu -->
   <script src="assets/menu-global.js"></script>
   <script>
-    createMenuGlobal();
+    //createMenuGlobal();
   </script>
 </body>
 </html>
