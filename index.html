@@ -7,10 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/favicon.ico">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="assets/styles/favicon.ico">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/styles/apple-touch-icon.png" />
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/docsify-custom.css">
+  <link rel="stylesheet" href="assets/styles/docsify-custom.css">
 </head>
 <body>
   <div class="menu-container"></div>
@@ -21,29 +21,45 @@
       themeColor: '#000',
       basePath: 'content/',
       coverpage: 'cover.html',
-      onlyCover: true,
+      //onlyCover: true,
       loadSidebar: '_menu.md',
-      homepage: 'home.md',
+      homepage: '_index.md',
       subMaxLevel: 2,
       auto2top: true,
       notFoundPage: true,
-      relativePath: true
+      relativePath: true,
+      pagination: {
+        previousText: 'Previous',
+        nextText: 'Next',
+        crossChapter: true
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.doneEach(function() {
+            codePreviewCssFile = "assets/styles/swanix.min.css";
+          });
+        }
+      ]
     };
   </script>
 
   <!-- Docsify -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- Docsify plugins -->
-  <script src="//unpkg.com/docsify-copy-code"></script>
-  <!-- Vuejs -->
-  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
-  <!-- Vuep -->
-  <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
-  <link rel="stylesheet" href="//unpkg.com/vuep/dist/vuep.css">
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Codemirror -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+  <!-- Docsify Codemirror -->
+  <link href="assets/scripts/docsify-codemirror.css" rel=stylesheet>
+  <script src="assets/scripts/docsify-codemirror.js"></script>
   <!-- Custom menu -->
-  <script src="assets/menu-global.js"></script>
+  <script src="assets/scripts/menu-global.js"></script>
   <script>
     //createMenuGlobal();
   </script>
+
 </body>
 </html>
