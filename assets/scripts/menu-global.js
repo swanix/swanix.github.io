@@ -3,7 +3,7 @@
 "use strict";
 
 let siteUrl = "https://swanix.org/"
-let topbarLogoPath = siteUrl + "assets/logo-topbar.svg";
+let topbarLogoPath = siteUrl + "assets/images/logo-topbar.svg";
 
 const menuGlobalItems = [
   { 
