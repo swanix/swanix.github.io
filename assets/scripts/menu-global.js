@@ -8,7 +8,7 @@ let topbarLogoPath = siteUrl + "assets/images/logo-topbar.svg";
 const menuGlobalItems = [
   { 
     name: '', 
-    icon: "<img src='https://swanix.org/assets/logo-icon.svg'/>", 
+    icon: "<img src='https://swanix.org/assets/images/logo-icon.svg'/>", 
     link: "/"
   },
   { 
