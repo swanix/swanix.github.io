@@ -1,6 +1,8 @@
 // Docsify Codemirror
 // v0.1.0
-// Sebastian Serna - 2019
+// Swanix - 2019
+
+"use strict";
 
 var codePreviewCssFile;
 
@@ -34,8 +36,7 @@ function codePreviewInit() {
     
   function addStylesheetToIframes(file) {
     var codePreview = document.querySelectorAll('.code-preview');
-
-    codePreviewDoc = codePreview[i].contentDocument.head;
+    var codePreviewDoc = codePreview[i].contentDocument.head;
     var css = document.createElement("link");
     css.type = "text/css";
     css.rel = "stylesheet";

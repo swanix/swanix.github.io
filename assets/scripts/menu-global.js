@@ -1,9 +1,8 @@
-// Menu Global generator
+// Swanix Menu Global
+// v0.1.0
+// Swanix - 2019
 
 "use strict";
-
-let siteUrl = "https://swanix.org/"
-let topbarLogoPath = siteUrl + "assets/images/logo-topbar.svg";
 
 const menuGlobalItems = [
   { 
@@ -181,11 +180,11 @@ function addMenuGlobalActiveClass() {
   } 
 };
 
-function validateEnvironment() {
+function initMenuGlobal() {
   let sectionLocation = window.location.hostname;
   if(sectionLocation !== 'localhost') {
     createMenuGlobal();
   }
 };
 
-document.addEventListener("DOMContentLoaded", validateEnvironment);
+document.addEventListener("DOMContentLoaded", initMenuGlobal);
