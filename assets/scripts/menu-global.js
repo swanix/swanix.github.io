@@ -57,7 +57,7 @@ const menuGlobalStyles = /*html*/ `
   --menu-global-font-size: 12px;
   --menu-global-font: 'Roboto', sans-serif;
   --menu-global-item-icon-size: 24px;
-  --menu-global-item-text: rgba(255,255,255,0.55);
+  --menu-global-item-text: rgba(255,255,255,0.75);
   --menu-global-item-radius: 8px; 
   /* Hover */
   --menu-global-item-text-hover: rgba(255,255,255,0.9);

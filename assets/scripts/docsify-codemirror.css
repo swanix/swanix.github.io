@@ -4,6 +4,7 @@
   border: 1px solid #EDEDED;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  font-size: 14px;
 }
 
 iframe.code-preview {
@@ -22,14 +23,12 @@ iframe.code-preview {
 }
 
 /* Theme base16-light - Custom color */
-
 /*
 
   Name:       Base16 Default Light
   Author:     Chris Kempson (http://chriskempson.com)
   CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
   Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-
 */
 
 .cm-s-base16-light.CodeMirror { background: #F6F7F9; color: #47536B; }
@@ -46,16 +45,16 @@ iframe.code-preview {
 .cm-s-base16-light span.cm-atom { color: #aa759f; }
 .cm-s-base16-light span.cm-number { color: #aa759f; }
 
-.cm-s-base16-light span.cm-property, .cm-s-base16-light span.cm-attribute { color: #c07de6; }
+.cm-s-base16-light span.cm-property, .cm-s-base16-light span.cm-attribute { color: rgb(42, 199, 181); }
 .cm-s-base16-light span.cm-keyword { color: #ac4142; }
-.cm-s-base16-light span.cm-string { color: #119df0; }
+.cm-s-base16-light span.cm-string { color: #a672bd; }
 
 .cm-s-base16-light span.cm-variable { color: #076ac7; }
 .cm-s-base16-light span.cm-variable-2 { color: #6a9fb5; }
 .cm-s-base16-light span.cm-def { color: #d28445; }
 .cm-s-base16-light span.cm-bracket { color: #202020; }
-.cm-s-base16-light span.cm-tag { color: rgb(42, 199, 181); }
-.cm-s-base16-light span.cm-link { color: #aa759f; }
+.cm-s-base16-light span.cm-tag { color: #007daf; }
+.cm-s-base16-light span.cm-link { color: #a672bd; }
 .cm-s-base16-light span.cm-error { background: #ac4142; color: #505050; }
 
 .cm-s-base16-light .CodeMirror-activeline-background { background: #DDDCDC; }

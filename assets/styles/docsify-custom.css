@@ -1,12 +1,11 @@
 /* New styles */
 
 :root {
-  --theme-color: ;
-  --sidebar-bg: #262626;
-  --sidebar-bg-menu-global: black;
-  --sidebar-text-size: ;
-  --sidebar-text: rgba(255,255,255, 0.65);
-  --sidebar-text-link: rgba(255,255,255, 0.65);
+  --sidebar-bg: hsl(0, 0%, 15%);
+  --sidebar-bg-menu-global: hsl(0, 0%, 0%);
+  --sidebar-text-size: 14px;
+  --sidebar-text: rgba(255,255,255, 0.78);
+  --sidebar-text-link: rgba(255,255,255, 0.78);
   --sidebar-text-link-hover: rgba(255,255,255, 0.9);
   --sidebar-active-link: rgba(255,255,255, 1);
   --sidebar-toggle-visible: none;
@@ -263,8 +262,9 @@ body {
   .sidebar > h1 {
     margin: 0 auto 1.5rem 1.5rem;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
+    color: rgba(255,255,255, 1);
   }
   .sidebar > h1 a {
     color: inherit;
@@ -292,6 +292,7 @@ body {
   .sidebar ul,
   .sidebar ul li {
     list-style: none;
+    padding-left: 4px;
   }
   .sidebar ul li a {
     border-bottom: none;
@@ -319,7 +320,7 @@ body {
   }
   .sidebar-toggle {
     background-color: transparent;
-    background-color: var(--sidebar-bg);
+    background: var(--sidebar-bg);
     border: 0;
     outline: none;
     padding: 10px;
@@ -674,12 +675,12 @@ body {
   }
   /* sidebar */
   .sidebar {
-    background-color: var(--sidebar-bg, rgba(255, 255, 255, 1));
+    background: var(--sidebar-bg, rgba(255, 255, 255, 1));
     color: var(--sidebar-text, rgba(0, 0, 0, 1));
     font-size: var(--sidebar-text-size, 14px);
   }
   .sidebar li {
-    margin: 6px 0 6px 0;
+    margin: 0;
   }
   .sidebar ul li a {
     color: var(--sidebar-text-link, rgba(0, 0, 0, 0.7));
