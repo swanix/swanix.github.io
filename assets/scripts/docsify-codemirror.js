@@ -74,6 +74,7 @@ function codePreviewInit() {
     var codePreviewDoc = codePreview[i].contentDocument.head;
     var basicStyle = document.createElement("style");
     basicStyle.innerHTML = `
+      body { padding: 20px;}
       body::before { background: none !important;}
     `;
     codePreviewDoc.appendChild(basicStyle);
