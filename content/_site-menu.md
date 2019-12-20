@@ -1,4 +1,5 @@
 * [Overview](/)
+* [Colors](/colors)
 * [Layout](/layout)
   * [Grid system](layout/grid)
   * [Templates](layout/templates)
