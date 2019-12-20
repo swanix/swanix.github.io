@@ -1,5 +1,5 @@
-<img src="../assets/images/logo.svg" data-origin="../assets/logo.svg" alt="Swanix">
-<h1> Swanix Design System </h1>
+<img src="../assets/images/logo.svg" data-origin="../assets/images/logo.svg" alt="Swanix">
+<h1> Swanix Design System</h1>
 
 <style>
 .cover {

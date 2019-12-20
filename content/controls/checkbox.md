@@ -1,8 +1,10 @@
 # Checkbox
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
+Las cajas de chequeo son controles que se utilizan en formularios para seleccionar una o varias opciones en el sistema. Su funcionamiento obedece a dos estados, activo o reposo. La metáfora de base en las cajas de chequeo es la de las listas impresas de cuestionarios donde se pueden seleccionar varias respuestas. A diferencia de los botones de radio, que son excluyentes, las cajas de chequeo permiten la selección de opciones simultáneas o presentes en listados, también permiten la selección de opciones individuales. 
 
-<iframe class="code-preview" height="120px"></iframe>
+En este último ejemplo tiene el mismo comportamiento de un interruptor, incluyendo una caja de chequeo que activa o desactiva una característica del sistema, muy común en aplicaciones móviles Android que por lo regular utilizan este control en las pantallas de configuración o en formularios específicos.
+
+<iframe class="code-preview" height="145px"></iframe>
 <textarea class="code-editor" name="code">
 <div>
 	<input id="checkbox1" type="checkbox" value="1" name="checkbox" checked="checked">
@@ -17,5 +19,3 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 	<label for="checkbox3"><span></span>Checkbox 3</label>
 </div>
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.

@@ -1,10 +1,16 @@
 # Scrollbar
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
+Las barras de desplazamiento son conocidas en inglés como scrollbars y se utilizan para ayudarnos a descubrir partes de contenido cuando éste es mayor que el tamaño disponible en pantalla. En este caso, cuando se desborda el contenido, se hace necesaria una barra de desplazamiento para navegar por la pantalla en sentido horizontal o vertical. 
 
-<iframe class="code-preview" height="300px"></iframe>
+Desde la incorporación de los teléfonos inteligentes han tenido una tendencia hacia el minimalismo. Incluso se presentan algunas innovaciones como en el caso de la barra de desplazamiento alfabética, muy utilizada en dispositivos móviles para desplazarse de forma rápida sobre un listado de contactos y encontrar con facilidad la opción deseada.
+
+Las barras de desplazamientos han existido desde los inicios de la computación gráfica y la mayoría de usuarios están familiarizados con su uso en los navegadores Web. 
+
+En los sistemas operativos se representa con una barra en los extremos de la pantalla que sólo aparece cuando hacemos scroll con un gesto táctil. Aunque no es tan común, también suelen personalizarse para añadir una estética particular con colores afines a la aplicación móvil.
+
+<iframe class="code-preview" height="350px"></iframe>
 <textarea class="code-editor" name="code">
-<section class="scroll-panel" ss-container>
+<section class="scroll-panel" style="overflow:hidden;padding:20px;" ss-container>
   <h3>Scroll panel</h3>
   <p>
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium

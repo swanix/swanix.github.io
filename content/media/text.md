@@ -1,10 +1,12 @@
 # Text
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
+Los textos informan y le otorgan sentido a la interfaz. La arquitectura de información se hace visible a través del texto y su contenido particular, por ejemplo si hacemos el ejercicio de remover el contenido de texto presente en una interfaz quedaría ininteligible, por esto su importancia en el diseño de aplicaciones y cualquier producto digital es fundamental. 
+
+Es común utilizar bloques de texto escrito en encabezados de contenido específicos o títulos de pantallas. Este uso destacado es útil para definir una jerarquía del contenido general con respecto a bloques de párrafos que representan mensajes extensos como artículos de noticias, pero también descripciones cortas como las que se emplean en las notificaciones del sistema y en los tooltips emergentes.
 
 ### Headings
 
-<iframe class="code-preview" height="300px"></iframe>
+<iframe class="code-preview" height="350px"></iframe>
 <textarea class="code-editor" name="code">
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
@@ -14,11 +16,9 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 <h6>Heading 6</h6>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
 ### Paragraphs
 
-<iframe class="code-preview" height="300px"></iframe>
+<iframe class="code-preview" height="330px"></iframe>
 <textarea class="code-editor" name="code">
 <p>
 	Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a>
@@ -41,12 +41,9 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 </p>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
-
 ### Ordered List
 
-<iframe class="code-preview" height="100px"></iframe>
+<iframe class="code-preview" height="130px"></iframe>
 <textarea class="code-editor" name="code">
 <ol>
   <li>List Item</li>
@@ -55,11 +52,9 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 </ol>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
 ### Unordered List
 
-<iframe class="code-preview" height="100px"></iframe>
+<iframe class="code-preview" height="130px"></iframe>
 <textarea class="code-editor" name="code">
 <ul>
   <li>List Item 1</li>
@@ -67,8 +62,6 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
   <li>List Item 3</li>
 </ul>
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
 
 ### Definition List 
 
@@ -80,15 +73,11 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 </dl>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
-
 ### Table 
 
-<iframe class="code-preview" height="250px"></iframe>
+<iframe class="code-preview" height="240px"></iframe>
 <textarea class="code-editor" name="code">
 <table>
-    <caption>This is the caption of the table</caption>
     <tbody>
         <tr>
             <th>Table Head 1</th>
@@ -114,21 +103,16 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 </table>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
-
 ### Text Quote 
 
-<iframe class="code-preview" height="50px"></iframe>
+<iframe class="code-preview" height="70px"></iframe>
 <textarea class="code-editor" name="code">
 <q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. - Quote</q>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi.
-
 ### Text Blockquote 
 
-<iframe class="code-preview" height="200px"></iframe>
+<iframe class="code-preview" height="240px"></iframe>
 <textarea class="code-editor" name="code">
 <blockquote>
   <q>
@@ -143,11 +127,9 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 </blockquote>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi.
-
 ### Text Pre - Code
 
-<iframe class="code-preview" height="320px"></iframe>
+<iframe class="code-preview" height="280px"></iframe>
 <textarea class="code-editor" name="code">
 <pre>
 Lorem ipsum dolor sit amet, consectetuer adipiscing
@@ -157,18 +139,13 @@ sem. Aliquam libero nisi, imperdiet at, tincidunt nec,
 gravida vehicula, nisl.
 Praesent mattis, massa quis luctus fermentum, turpis mi
 volutpat justo, eu volutpat enim diam eget metus.
-Maecenas ornare tortor. Donec sed tellus eget sapien
-fringilla nonummy. Mauris a ante. Suspendisse quam sem,
-consequat at, commodo vitae, feugiat in, nunc. Morbi
-imperdiet augue quis tellus.
+Maecenas ornare tortor.
 </pre>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi.
+### Misc (abbr, sub, sup, etc)
 
-### Misc Stuff (abbr, sub, sup, etc)
-
-<iframe class="code-preview" height="170px"></iframe>
+<iframe class="code-preview" height="190px"></iframe>
 <textarea class="code-editor" name="code">
 <p>
 	Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer
@@ -181,5 +158,3 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 	Morbi imperdiet augue quis tellus.
 </p>
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi.

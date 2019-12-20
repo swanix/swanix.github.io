@@ -1,10 +1,10 @@
 # Image
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
+Las imágenes hacen parte de la representación virtual de lo que ve el usuario y junto con el texto son el principal insumo comunicativo del sistema. En esta categorización podemos encontrar fotografías, ilustraciones e imágenes particulares que pueden utilizarse como fondos de los contenedores y diferentes controles interactivos.
 
-<iframe class="code-preview" height="400px"></iframe>
+Como su nombre indica, la interfaz gráfica de usuario está compuesta de imágenes que representan en pantalla diversos elementos gráficos. Pero aquí el énfasis recae en la fotografía y la ilustración como principales componentes que acompañan a los demás medios. Las aplicaciones de contenido, noticias y multimedia en general suelen utilizar imágenes junto con el texto, ya que su riqueza visual ayuda a captar la atención y comunicar de manera eficaz ciertos mensajes al usuario. 
+
+<iframe class="code-preview" height="500px"></iframe>
 <textarea class="code-editor" name="code">
 <img alt="Swanix" src="assets/images/cover-bg.jpg" />
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.

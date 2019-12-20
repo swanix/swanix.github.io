@@ -1,8 +1,12 @@
 # Dropdown (Select)
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
+Las listas desplegables son elementos que permiten elegir una opción entre varias disponibles. Se diferencian con los botones de radio en la manera como se presentan: como un campo de texto que incluye un icono para indicar la presencia de más opciones. Al ser pulsado se despliega un listado y al elegir la opción deseada, la lista vuelve a su estado de reposo almacenando la información en un formulario o ejecutando alguna acción en pantalla. 
 
-<iframe class="code-preview" height="70px"></iframe>
+Estas se conocen en inglés como dropdown lists y son muy empleadas para elegir una opción entre gran cantidad de datos como listados de países o idiomas donde utilizar botones de radio es poco recomendado por el espacio que ocuparían en pantalla. Windows Phone se refiere a ellas como combo boxes y Android como spinners. Por su parte, iOS no soporta este control pero tiene un componente nativo llamado picker que permite elegir una única opción en un listado (equivalente a las listas desplegables).
+
+De forma similar, los menús desplegables ofrecen un comportamiento parecido a las listas desplegables pero se enfocan por lo general en la ejecución de acciones del sistema y en ofrecer opciones de navegación.
+
+<iframe class="code-preview" height="80px"></iframe>
 <textarea class="code-editor" name="code">
 <label for="select">Label:</label>
 <select name="select">
@@ -18,5 +22,3 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 	</optgroup>
 </select>
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.

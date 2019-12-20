@@ -1,8 +1,12 @@
 # Button
 
+Un botón es un elemento gráfico rectangular, cuadrado, ovalado o de formas varias que al ser pulsado realiza determinada acción del sistema. Esta representación gráfica obedece a la metáfora de los botones del mundo físico utilizados en todo tipo de equipos electrónicos. 
+
+Los botones son elementos fundamentales para las interacciones con una aplicación. Dada la libertad para personalizar estos elementos se pueden crear diseños propios acordes con la estética de la aplicación. Sea cual sea la naturaleza o apariencia de un botón siempre existirán como constante los estados del mismo para comunicar al usuario su actividad, por lo general son: reposo, presionado, seleccionado e inactivo. Dichos estados también se presentan en la gran mayoría de controles interactivos y su importancia es clave para tener una retroalimentación coherente por parte del sistema.
+
 ### Button tag
 
-<iframe class="code-preview" height="70px"></iframe>
+<iframe class="code-preview" height="90px"></iframe>
 <textarea class="code-editor" name="code">
 <button>Button</button>
 <button class="primary">Button Primary</button>
@@ -11,21 +15,17 @@
 <button class="primary rounded">Button Primary Rounded</button>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
 ### Button input
 
-<iframe class="code-preview" height="70px"></iframe>
+<iframe class="code-preview" height="90px"></iframe>
 <textarea class="code-editor" name="code">
 <input type="reset" value="Reset">
 <input type="submit" value="Submit">
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
 ### Button link
 
-<iframe class="code-preview" height="70px"></iframe>
+<iframe class="code-preview" height="90px"></iframe>
 <textarea class="code-editor" name="code">
 <a href="#" class="button">Basic Button</a>
 <a href="#" class="button rounded">Basic Button Rounded</a>
@@ -33,40 +33,35 @@ Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commod
 <a href="#" class="button primary rounded">Primary Button Rounded</a>
 </textarea>
 
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.
-
-
 ### Button with icons
 
-<iframe class="code-preview" height="100px"></iframe>
+<iframe class="code-preview" height="120px"></iframe>
 <textarea class="code-editor" name="code">
 <div>
 	<button class="circle" data-tooltip="Add" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#plus"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#plus"></use></svg>
 	</button>
 	<button class="rounded" data-tooltip="Edit" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#edit"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#edit"></use></svg>
 		Icon Button Rounded
 	</button>
 	<button data-tooltip="Home" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#home"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#home"></use></svg>
 	</button>
 	<button data-tooltip="Delete" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#delete"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#delete"></use></svg>
 	</button>
 	<button data-tooltip="Search" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#search"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#search"></use></svg>
 	</button>
 	<button data-tooltip="Menu" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#menu"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#menu"></use></svg>
 	</button>
 	<button data-tooltip="Settings" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#settings"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#settings"></use></svg>
 	</button>
 	<button data-tooltip="Contact" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/images/icons.svg#email"></use></svg>
+		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#email"></use></svg>
 	</button>
 </div>
 </textarea>
-
-Nullam posuere, tortor et tristique tincidunt, elit mi gravida tortor, eu commodo massa felis non dolor. Cras posuere lacus et vestibulum rhoncus. Donec in sagittis nibh. Pellentesque aliquet nibh eget felis suscipit, nec finibus augue condimentum. Aenean ac neque magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis varius nisi. Vivamus lectus massa, rutrum et auctor blandit, fermentum eu libero. Etiam tincidunt nisl sit amet metus sollicitudin hendrerit. Vestibulum vulputate purus quis bibendum condimentum. Nunc suscipit convallis ante tempus ultricies. Donec erat arcu, hendrerit sed sodales sed, convallis ac quam.

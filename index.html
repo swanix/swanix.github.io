@@ -20,14 +20,15 @@
       name: "Swanix",
       themeColor: '#000',
       basePath: 'content/',
-      homepage: '_home.md',
-      loadSidebar: '_menu.md',
+      homepage: '_site-home.md',
+      loadSidebar: '_site-menu.md',
       subMaxLevel: 2,
-      coverpage: 'site-cover.html',
-      onlyCover: true,
+      repo: 'swanix/ui',
+      coverpage: '_site-cover.md',
+      //onlyCover: true,
       auto2top: true,
-      notFoundPage: true,
-      relativePath: true,
+      notFoundPage: false,
+      relativePath: false,
       pagination: {
         previousText: 'Previous',
         nextText: 'Next',
@@ -36,7 +37,9 @@
       plugins: [
         function(hook, vm) {
           hook.doneEach(function() {
-            codePreviewCssFile = "assets/styles/swanix.min.css";
+            codePreviewCssFile = "assets/dist/swanix.min.css";
+            codePreviewCssFile2 = "";
+            codePreviewJsFile = "assets/dist/swanix.min.js";
           });
         }
       ]
@@ -58,7 +61,31 @@
   <!-- Custom menu -->
   <script src="assets/scripts/menu-global.js"></script>
   <script>
-    //createMenuGlobal();
+    createMenuGlobal();
   </script>
+
+<script>
+  // Modal Dialog
+  const modal = new VanillaModal({
+    clickOutside : false
+  });
+  // Slideshow
+  var element = document.querySelector('.slideshow'),
+     prevBtn = document.querySelector('.js-slideshow-prev'),
+     nextBtn = document.querySelector('.js-slideshow-next');
+  window.mySwipe = new Swipe(element, {
+    startSlide: 0,
+    auto: 3000,
+    draggable: true,
+    autoRestart: true,
+    continuous: true,
+    disableScroll: true,
+    stopPropagation: true,
+    callback: function(index, element) {},
+    transitionEnd: function(index, element) {}
+  });
+  prevBtn.onclick = mySwipe.prev;
+  nextBtn.onclick = mySwipe.next;
+</script>
 </body>
 </html>
