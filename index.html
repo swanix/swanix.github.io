@@ -13,38 +13,35 @@
   <link rel="stylesheet" href="assets/styles/docsify-custom.css">
 </head>
 <body>
-  <div class="menu-container"></div>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: "Swanix",
-      themeColor: '#000',
-      basePath: 'content/',
-      homepage: '_site-home.md',
-      loadSidebar: '_site-menu.md',
-      subMaxLevel: 2,
-      repo: 'swanix/ui',
-      coverpage: '_site-cover.md',
-      //onlyCover: true,
-      auto2top: true,
-      notFoundPage: false,
-      relativePath: false,
-      pagination: {
-        previousText: 'Previous',
-        nextText: 'Next',
-        crossChapter: true
-      },
-      plugins: [
-        function(hook, vm) {
-          hook.doneEach(function() {
-            codePreviewCssFile = "assets/dist/swanix.min.css";
-            codePreviewCssFile2 = "";
-            codePreviewJsFile = "assets/dist/swanix.min.js";
-          });
-        }
-      ]
-    };
-  </script>
+<div class="menu-container"></div>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: "Swanix",
+    repo: 'swanix/ui',
+    // themeColor: 'royalblue',
+    basePath: 'content/',
+    coverpage: '_site-cover.md',
+    homepage: '_site-home.md',
+    loadSidebar: '_site-menu.md',
+    subMaxLevel: 2,
+    auto2top: true,
+    notFoundPage: false,
+    pagination: {
+      previousText: 'Previous',
+      nextText: 'Next',
+      crossChapter: true
+    },
+    plugins: [
+      function(hook, vm) {
+        hook.doneEach(function() {
+          codePreviewCssFile = "dist/swanix.min.css";
+          codePreviewJsFile = "";
+        });
+      }
+    ]
+  };
+</script>
 
   <!-- Docsify -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -63,29 +60,6 @@
   <script>
     createMenuGlobal();
   </script>
-
-<script>
-  // Modal Dialog
-  const modal = new VanillaModal({
-    clickOutside : false
-  });
-  // Slideshow
-  var element = document.querySelector('.slideshow'),
-     prevBtn = document.querySelector('.js-slideshow-prev'),
-     nextBtn = document.querySelector('.js-slideshow-next');
-  window.mySwipe = new Swipe(element, {
-    startSlide: 0,
-    auto: 3000,
-    draggable: true,
-    autoRestart: true,
-    continuous: true,
-    disableScroll: true,
-    stopPropagation: true,
-    callback: function(index, element) {},
-    transitionEnd: function(index, element) {}
-  });
-  prevBtn.onclick = mySwipe.prev;
-  nextBtn.onclick = mySwipe.next;
-</script>
 </body>
 </html>
+

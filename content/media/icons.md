@@ -7,59 +7,59 @@ Aunque en esencia también se trata de imágenes, los iconos tienen unas caracte
 <hr />
 <h4>Small</h4>
 <div>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#home"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#arrow-left"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#arrow-right"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#plus"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#minus"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#edit"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#delete"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#search"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#menu"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#settings"></use></svg>
-	<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#mail"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#home"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#arrow-left"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#arrow-right"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#plus"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#minus"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#edit"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#delete"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#search"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#menu"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#settings"></use></svg>
+	<svg class="icon"><use xlink:href="dist/swanix-icons.svg#mail"></use></svg>
 </div>
 <hr />
 <h4>Medium</h4>
 <div>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#home"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#arrow-left"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#arrow-right"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#plus"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#minus"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#edit"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#delete"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#search"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#menu"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#settings"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#mail"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#home"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#arrow-left"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#arrow-right"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#plus"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#minus"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#edit"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#delete"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#search"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#menu"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#settings"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#mail"></use></svg>
 </div>
 <hr />
 <h4>Large</h4>
 <div>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#home"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#arrow-left"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#arrow-right"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#plus"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#minus"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#edit"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#delete"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#search"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#menu"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#settings"></use></svg>
-	<svg class="icon large"><use xlink:href="assets/dist/swanix-icons.svg#mail"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#home"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#arrow-left"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#arrow-right"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#plus"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#minus"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#edit"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#delete"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#search"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#menu"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#settings"></use></svg>
+	<svg class="icon large"><use xlink:href="dist/swanix-icons.svg#mail"></use></svg>
 </div>
 <hr />
 <h4>Social Icons</h4>
 <div>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-facebook"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-twitter"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-instagram"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-pinterest"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-youtube"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-whatsapp"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-dribbble"></use></svg>
-	<svg class="icon medium"><use xlink:href="assets/dist/swanix-icons.svg#social-vimeo"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-facebook"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-twitter"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-instagram"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-pinterest"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-youtube"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-whatsapp"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-dribbble"></use></svg>
+	<svg class="icon medium"><use xlink:href="dist/swanix-icons.svg#social-vimeo"></use></svg>
 </div>
 </textarea>
 

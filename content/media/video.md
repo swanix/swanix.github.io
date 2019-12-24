@@ -4,7 +4,7 @@ También conocido como imagen en movimiento, termina de conformar el grupo de el
 
 También se utilizan videos en tutoriales al interior de las aplicaciones indicando al usuario cómo puede utilizar las diferentes opciones del sistema y aunque no es tan común, se pueden encontrar videos como elemento publicitario y decorativo en fondos de contenedores, un recurso en creciente auge.
 
-<iframe class="code-preview" height="450px"></iframe>
+<iframe class="code-preview" height="460px"></iframe>
 <textarea class="code-editor" name="code">
 <div class="video">
   <div class="video-wrapper">

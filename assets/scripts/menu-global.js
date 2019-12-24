@@ -57,7 +57,7 @@ const menuGlobalStyles = /*html*/ `
   --menu-global-font-size: 12px;
   --menu-global-font: 'Roboto', sans-serif;
   --menu-global-item-icon-size: 24px;
-  --menu-global-item-text: rgba(255,255,255,0.75);
+  --menu-global-item-text: rgba(255,255,255,0.9);
   --menu-global-item-radius: 8px; 
   /* Hover */
   --menu-global-item-text-hover: rgba(255,255,255,0.9);
@@ -65,7 +65,7 @@ const menuGlobalStyles = /*html*/ `
   /* Active */
   --menu-global-item-text-active: rgba(255,255,255,1);
   --menu-global-item-icon-active: rgba(255,255,255,1);
-  --menu-global-item-bg-active: var(--sidebar-bg, black);
+  --menu-global-item-bg-active: var(--sidebar-bg, #262626);
 }
 
 /* Docsify */
@@ -90,7 +90,6 @@ main > .content {
 
 body {
   overscroll-behavior: none;
-  /* background: var(--body-bg); */
 } 
 
 #menu-global {
@@ -128,9 +127,10 @@ body {
 
 #menu-global .menu-global-item.active {
   color: var(--menu-global-item-text-active);
-  background: var(--menu-global-item-bg-active);
   border-top-left-radius: var(--menu-global-item-radius);
   border-bottom-left-radius: var(--menu-global-item-radius);
+  background: var(--menu-global-item-bg-active);
+  background-image: linear-gradient(to bottom, var(--sidebar-bg-overlay, rgba(0,0,0, 0.1)), var(--sidebar-bg-overlay, rgba(0,0,0, 0.1)));
 }
 
 #menu-global .menu-global-item-icon {

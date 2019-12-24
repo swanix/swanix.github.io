@@ -65,7 +65,7 @@ Es común utilizar bloques de texto escrito en encabezados de contenido específ
 
 ### Definition List 
 
-<iframe class="code-preview" height="100px"></iframe>
+<iframe class="code-preview" height="120px"></iframe>
 <textarea class="code-editor" name="code">
 <dl>
   <dt>Definition List Title</dt>

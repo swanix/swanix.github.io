@@ -39,29 +39,29 @@ Los botones son elementos fundamentales para las interacciones con una aplicaci√
 <textarea class="code-editor" name="code">
 <div>
 	<button class="circle" data-tooltip="Add" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#plus"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#plus"></use></svg>
 	</button>
 	<button class="rounded" data-tooltip="Edit" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#edit"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#edit"></use></svg>
 		Icon Button Rounded
 	</button>
 	<button data-tooltip="Home" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#home"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#home"></use></svg>
 	</button>
 	<button data-tooltip="Delete" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#delete"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#delete"></use></svg>
 	</button>
 	<button data-tooltip="Search" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#search"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#search"></use></svg>
 	</button>
 	<button data-tooltip="Menu" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#menu"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#menu"></use></svg>
 	</button>
 	<button data-tooltip="Settings" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#settings"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#settings"></use></svg>
 	</button>
 	<button data-tooltip="Contact" data-tooltip-pos="down">
-		<svg class="icon"><use xlink:href="assets/dist/swanix-icons.svg#email"></use></svg>
+		<svg class="icon"><use xlink:href="dist/swanix-icons.svg#email"></use></svg>
 	</button>
 </div>
 </textarea>
