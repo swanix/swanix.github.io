@@ -21,9 +21,6 @@ Based on Vue Theme - Source https://unpkg.com/docsify@4.9.4/themes/vue.css
   --code-inline-bg: linear-gradient(90deg,rgba(0,0,0, 0.05),rgba(0,0,0, 0.05));
 }
 
-body {
-} 
-
 .menu-container {
   position: fixed;
   top: 0;
@@ -303,8 +300,8 @@ main.hidden {
   background-image: linear-gradient(to bottom, var(--sidebar-bg-overlay, rgba(0,0,0, 0.1)), var(--sidebar-bg-overlay, rgba(0,0,0, 0.1)));
 }
 .sidebar > h1 {
-  margin: 0 auto 1.5rem 1.5rem;
-  font-size: 1.5rem;
+  margin: 0 auto 20px 20px;
+  font-size: 20px;
   font-weight: 400;
   text-align: left;
   color: rgba(255,255,255, 1);
