@@ -22,7 +22,7 @@
     // themeColor: 'royalblue',
     basePath: 'content/',
     coverpage: '_site-cover.md',
-    onlyCover: true,
+    // onlyCover: true,
     homepage: '_site-home.md',
     loadSidebar: '_site-menu.md',
     subMaxLevel: 2,
@@ -37,6 +37,7 @@
       function(hook, vm) {
         hook.doneEach(function() {
           codePreviewCssFile = "dist/swanix.min.css";
+          codePreviewCssFile2 = "";
           codePreviewJsFile = "";
         });
       }

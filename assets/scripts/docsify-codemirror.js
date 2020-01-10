@@ -5,6 +5,7 @@
 "use strict";
 
 let codePreviewCssFile;
+let codePreviewCssFile2;
 let codePreviewJsFile;
 
 let delay;
@@ -28,8 +29,9 @@ function codePreviewInit() {
       lineNumbers: true
     });
     previewCode();
-    addStylesheetToIframes(codePreviewCssFile);
-    addScriptToIframes(codePreviewJsFile);
+    addStylesheet(codePreviewCssFile);
+    addStylesheet2(codePreviewCssFile2);
+    addScript(codePreviewJsFile);
     addFrameBasicStyle();
   }
 
@@ -41,7 +43,7 @@ function codePreviewInit() {
     preview.close();
   }    
     
-  function addStylesheetToIframes(file) {
+  function addStylesheet(file) {
     let codePreview = document.querySelectorAll('.code-preview');
     let codePreviewDoc = codePreview[i].contentDocument.head;
     let css = document.createElement("link");
@@ -51,7 +53,17 @@ function codePreviewInit() {
     codePreviewDoc.appendChild(css);
   }
 
-  function addScriptToIframes(file) {
+  function addStylesheet2(file) {
+    let codePreview = document.querySelectorAll('.code-preview');
+    let codePreviewDoc = codePreview[i].contentDocument.head;
+    let css = document.createElement("link");
+    css.type = "text/css";
+    css.rel = "stylesheet";
+    css.href = file;
+    codePreviewDoc.appendChild(css);
+  }
+
+  function addScript(file) {
     let codePreview = document.querySelectorAll('.code-preview');
     let codePreviewDoc = codePreview[i].contentDocument.head;
     let js = document.createElement("script");
