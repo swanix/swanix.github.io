@@ -37,7 +37,7 @@ const menuGlobalItems = [
   },
   { 
     name: 'Diagrams', 
-    icon: "♢", 
+    icon: "♆", 
     link: "/diagrams/"
   }
 ];
