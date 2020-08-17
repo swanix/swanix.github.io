@@ -29,6 +29,16 @@ const menuGlobalItems = [
     name: 'Palettes', 
     icon: "❖", 
     link: "/palettes/"
+  },
+  { 
+    name: 'Mockups', 
+    icon: "⚁", 
+    link: "/mockups/"
+  },
+  { 
+    name: 'Diagrams', 
+    icon: "♢", 
+    link: "/diagrams/"
   }
 ];
 
