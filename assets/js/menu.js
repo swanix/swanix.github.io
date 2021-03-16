@@ -28,5 +28,10 @@ let menuItems = [
     name: 'Diagrams', 
     icon: "♆", 
     link: "/diagrams/"
+  },
+  { 
+    name: 'Mockups', 
+    icon: "⛢", 
+    link: "/mockups/"
   }
 ];
